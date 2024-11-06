@@ -1,0 +1,78 @@
+#include <iostream>
+
+
+// MAIN FUNCTION
+int main() {
+    // INPUT AND OUTPUT
+    int number;
+    std::cout << "Enter an integer: ";
+    std::cin >> number;
+    std::cout << "You entered: " << number << std::endl;
+    return 0;
+
+
+
+    // VARIABLES AND DATA TYPES
+    int x; //integer values
+    float y; //single-precision floating-point values
+    double z; //double-precision floating-point values
+    char c; //single characters
+    bool b; //boolean values
+
+
+
+    // CONTROL STRUCTURES
+        //IF-ELSE STATEMENT
+        if(condition) {
+            // Code to execute if the condition is true
+        } else {
+            // Code to execute if the condition is false
+        }
+
+
+        //WHILE LOOP
+        while(condition) {
+            // Code to execute while the condition is true
+        }
+
+
+        //FOR LOOP
+        for (initialization; condition; update) {
+            // Code to execute while the condition is true
+        }
+
+
+        //SWITCH STATEMENT
+        switch (variable) {
+            case value1:
+                // Code to execute if variable == value1
+                break;
+            case value2:
+                // Code to execute if variable == value2
+                break;
+            // More cases...
+            default:
+                // Code to execute if variable does not match any case value
+        }
+
+
+
+    // FUNCTIONS
+    ReturnType functionName(ParameterType1 parameter1, ParameterType2 parameter2) {
+        // Function body
+        // ...
+        return returnValue;
+    }
+    //EXAMPLE
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int main() {
+        int result = add(3, 4);
+        std::cout << "3 + 4 = " << result << std::endl;
+        return 0;
+    }
+
+}
+
